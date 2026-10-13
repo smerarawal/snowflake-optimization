@@ -1,0 +1,22 @@
+{
+  "name": "M",
+  "seed": 42,
+  "tenants": 100,
+  "skew": 0.9,
+  "audit_per_appt": 3.0,
+  "msgs_extra": 0.3,
+  "date_range": [
+    "2024-10-01T00:00:00",
+    "2026-10-01T00:00:00"
+  ],
+  "row_counts": {
+    "dim_tenant": 100,
+    "dim_service": 600,
+    "appointments": 1000000,
+    "queue_events": 2299982,
+    "notifications": 1464037,
+    "audit_events": 3000017
+  },
+  "seconds": 305.2,
+  "note": "Synthetic data modeled on an appointment/queue platform; not client data."
+}

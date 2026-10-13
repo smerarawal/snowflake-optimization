@@ -1,0 +1,20 @@
+{
+  "APPOINTMENTS": {
+    "cluster_by_keys": "LINEAR(TO_DATE(created_at))",
+    "total_partition_count": 5,
+    "total_constant_partition_count": 0,
+    "average_overlaps": 4.0,
+    "average_depth": 5.0,
+    "version": "OPTIMA",
+    "clustering_errors": []
+  },
+  "APPOINTMENTS_CLUSTERED": {
+    "cluster_by_keys": "LINEAR(TO_DATE(created_at))",
+    "total_partition_count": 8,
+    "total_constant_partition_count": 0,
+    "average_overlaps": 0.0,
+    "average_depth": 1.0,
+    "version": "OPTIMA",
+    "clustering_errors": []
+  }
+}

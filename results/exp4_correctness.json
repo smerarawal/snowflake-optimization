@@ -1,0 +1,11 @@
+{
+  "delta_rows": 57537,
+  "affected_keys": 2939,
+  "total_rows": 1000000,
+  "cutoff": "2026-09-01",
+  "full_minus_inc": 0,
+  "inc_minus_full": 0,
+  "full_rows": 67743,
+  "inc_rows": 67743,
+  "correct": true
+}
